@@ -3,22 +3,12 @@
     padding: 0;
 }
 
-/* Estilos para dispositivos móveis */
-@media screen and (max-width: 768px) {
-    .animated_card,
-    .animated_card2,
-    .central_card {
-        height: 300px; /* Reduz a altura dos cards */
-        width: 250px; /* Reduz a largura dos cards */
-    }
-
-    .instagram_button a {
-        top: 100px; /* Move o botão do Instagram para cima */
-        padding: 12px 12px; /* Reduz o padding do botão */
-        font-size: 24px; /* Reduz o tamanho do ícone */
+@media only screen and (max-width: 600px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
     }
 }
-
 body{
     display: flex;
     min-height: 100vh;
